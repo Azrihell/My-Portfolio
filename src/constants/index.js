@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  wordpress,
   meta,
   starbucks,
   tesla,
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Rock Climber + Cat Lover",
     icon: creator,
   },
 ];
@@ -109,8 +109,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "wordpress",
+    icon: wordpress,
   },
 ];
 
