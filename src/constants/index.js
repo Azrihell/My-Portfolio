@@ -17,9 +17,8 @@ import {
   wordpress,
   meta,
   ZTM,
-  tesla,
   shopify,
-  carrent,
+  openai,
   jobit,
   tripguide,
   threejs,
@@ -31,8 +30,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -130,8 +129,8 @@ const certificates = [
     date: "August 2023",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Python Essential learning",
+    company_name: "LinkedIn Learning",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -174,9 +173,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ai Image Generator",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An ai image generator app, that allows users to use ai to bring their ideas to life, and share them with the community.",
     tags: [
       {
         name: "react",
@@ -191,8 +190,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: openai,
+    source_code_link: "https://github.com/Azrihell/AI-Image-Generator-Client",
   },
   {
     name: "Job IT",

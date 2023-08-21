@@ -27,7 +27,7 @@ import shopify from "./company/shopify.png";
 import ZTM from "./company/ZTM.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import openai from "./openai.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -57,7 +57,7 @@ export {
   shopify,
   ZTM,
   tesla,
-  carrent,
+  openai,
   jobit,
   tripguide,
   azLogo,
