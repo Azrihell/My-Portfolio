@@ -123,11 +123,11 @@ const certificates = [
     date: "July 2023",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "WordPress Essential Training",
+    company_name: "Linkedin Learning",
+    icon: wordpress,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2023",
   },
   {
     title: "Web Developer",
