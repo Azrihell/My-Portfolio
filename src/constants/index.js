@@ -19,7 +19,7 @@ import {
   ZTM,
   shopify,
   openai,
-  jobit,
+  tshirt,
   tripguide,
   threejs,
 } from "../assets";
@@ -203,16 +203,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "3DModeling",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Ai",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tshirt,
+    source_code_link: "https://github.com/Azrihell/Ai-TShirt-App-Client",
   },
   {
     name: "Trip Guide",

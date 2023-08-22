@@ -28,7 +28,7 @@ import ZTM from "./company/ZTM.png";
 import tesla from "./company/tesla.png";
 
 import openai from "./openai.png";
-import jobit from "./jobit.png";
+import tshirt from "./tshirt.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -58,7 +58,7 @@ export {
   ZTM,
   tesla,
   openai,
-  jobit,
+  tshirt,
   tripguide,
   azLogo,
 };
