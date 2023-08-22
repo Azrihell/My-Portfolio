@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import azLogo from './azLogo.svg'
+import azLogo from './azLogo.png'
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
