@@ -194,7 +194,7 @@ const projects = [
     source_code_link: "https://github.com/Azrihell/AI-Image-Generator-Client",
   },
   {
-    name: "Job IT",
+    name: "Quick, Design!",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
