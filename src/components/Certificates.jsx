@@ -10,7 +10,7 @@ import { certificates } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 
-const CertificateCard = ({ certificate, image, source_code_link, name, description }) => {
+const CertificateCard = ({ certificate }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -18,7 +18,7 @@ const CertificateCard = ({ certificate, image, source_code_link, name, descripti
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={certificate.date}
+      // date={certificate.date}
       iconStyle={{ background: certificate.iconBg }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
@@ -41,24 +41,18 @@ const CertificateCard = ({ certificate, image, source_code_link, name, descripti
       </div>
 
 
-      <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+      <div className='relative w-full h-[auto]'>
+        <img
+          src={certificate.image}
+          alt='project_image'
+          className='w-full h-full object-cover rounded-2xl'
+        />
+      </div>
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}>
-            </div>
-          </div>
-        </div>
-
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-        </div>
+      <div className='mt-5'>
+        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        <p className='mt-2 text-secondary text-[14px]'>{certificate.description}</p>
+      </div>
 
     </VerticalTimelineElement>
   )

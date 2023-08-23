@@ -19,8 +19,11 @@ import {
   linkedin,
   openai,
   tshirt,
-  tripguide,
   threejs,
+  wordpressCert,
+  pythonCert,
+  pmfCert,
+  ztmCert
 } from "../assets";
 
 export const navLinks = [
@@ -119,6 +122,7 @@ const certificates = [
     icon: ZTM,
     iconBg: "#383E56",
     date: "July 2023",
+    image: ztmCert
   },
   {
     title: "WordPress Essential Training",
@@ -126,6 +130,7 @@ const certificates = [
     icon: wordpress,
     iconBg: "#E6DEDD",
     date: "August 2023",
+    image: wordpressCert
   },
   {
     title: "Python Essential Learning",
@@ -133,6 +138,7 @@ const certificates = [
     icon: python,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
+    image: pythonCert
   },
   {
     title: "Project Management Foundations",
@@ -140,6 +146,7 @@ const certificates = [
     icon: linkedin,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
+    image: pmfCert
   },
 ];
 
@@ -231,7 +238,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ztmCert,
     source_code_link: "https://github.com/",
   },
 ];
