@@ -41,7 +41,7 @@ const CertificateCard = ({ certificate }) => {
       </div>
 
 
-      <div className='relative w-full h-[auto]'>
+      <div className='relative w-full h-[auto] pt-2'>
         <img
           src={certificate.image}
           alt='project_image'
