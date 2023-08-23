@@ -1,7 +1,7 @@
 import {
   mobile,
   backend,
-  creator,
+  caticon,
   web,
   javascript,
   typescript,
@@ -56,7 +56,7 @@ const services = [
   },
   {
     title: "Rock Climber + Cat Lover",
-    icon: creator,
+    icon: caticon,
   },
 ];
 
