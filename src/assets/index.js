@@ -17,15 +17,13 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import python from "./tech/python.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import linkedin from './tech/linkedin.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import ZTM from "./company/ZTM.png";
-import tesla from "./company/tesla.png";
 
 import openai from "./openai.png";
 import tshirt from "./tshirt.png";
@@ -49,14 +47,12 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  python,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  linkedin,
   ZTM,
-  tesla,
   openai,
   tshirt,
   tripguide,
