@@ -153,26 +153,26 @@ const certificates = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Az is a beacon of leadership. Their warmth, vision, and dedication uplift us daily. We're truly blessed to have such an exceptional team lead.",
+    name: "Ariel Coday",
+    designation: "Supervisor",
+    company: "Movement (Formerly Summit)",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "In my time collaborating with Azriel, I have witnessed her transform obstacles into opportunities and turn ambitious ideas into reality. Her problem-solving prowess and natural leadership make her an invaluable asset to any endeavor!",
+    name: "Maelyn Schramm",
+    designation: "Gym Director",
+    company: "Movement, Design District",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Even at the outset of her journey, Az exhibits a coding acumen beyond her years. A promising talent, destined to make significant strides in tech.",
+    name: "James Maxfield",
+    designation: "Senior Full Stack Engineer",
+    company: "Nexrage Studios",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
