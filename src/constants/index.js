@@ -23,7 +23,8 @@ import {
   wordpressCert,
   pythonCert,
   pmfCert,
-  ztmCert
+  ztmCert,
+  seoCert
 } from "../assets";
 
 export const navLinks = [
@@ -141,12 +142,12 @@ const certificates = [
     image: pythonCert
   },
   {
-    title: "Project Management Foundations",
-    company_name: "LinkedIn Learning, Project Management Institute",
+    title: "SEO Foundations",
+    company_name: "LinkedIn Learning",
     icon: linkedin,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
-    image: pmfCert
+    image: seoCert
   },
 ];
 

@@ -12,6 +12,7 @@ import wordpressCert from './wordpressCert.jpg'
 import pythonCert from './pythonCert.jpg'
 import pmfCert from './pmfCert.jpg'
 import ztmCert from './ztmCert.jpg'
+import seoCert from './seoCert.jpg'
 
 import css from "./tech/css.png"
 import wordpress from './tech/wordpress.png'
@@ -64,5 +65,6 @@ export {
   pythonCert,
   pmfCert,
   ztmCert,
-  liveicon
+  liveicon,
+  seoCert
 };
