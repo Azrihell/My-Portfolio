@@ -198,7 +198,7 @@ const projects = [
     ],
     image: openai,
     source_code_link: "https://github.com/Azrihell/AI-Image-Generator-Client",
-    live_view_link: ""
+    live_view_link: "https://ai-image-generator-client-phi.vercel.app/"
   },
   {
     name: "Quick, Design!",
