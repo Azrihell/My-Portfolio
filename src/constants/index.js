@@ -249,4 +249,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, certificates, testimonials, projects, outerLinks }
+export { services, technologies, certificates, testimonials, projects }
