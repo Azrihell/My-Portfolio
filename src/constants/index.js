@@ -43,14 +43,6 @@ export const navLinks = [
   },
 ];
 
-const outerLinks = [
-  {
-    imageLink: "https://www.linkedin.com/in/azriel-pilcher-064a33228/"
-  },
-  {
-    imageLink: "https://github.com/Azrihell"
-  },
-]
 
 const services = [
   {

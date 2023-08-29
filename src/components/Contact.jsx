@@ -110,7 +110,7 @@ const Contact = () => {
             {loading ? 'Sending...' : 'Send'}
           </button>
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3'>
             <div
               onClick={() => window.open("https://github.com/Azrihell", "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -123,7 +123,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className='absolute inset-x-14 top-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-x-14 top-0 flex justify-end m-3'>
             <div
               onClick={() => window.open("https://www.linkedin.com/in/azriel-pilcher-064a33228/", "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
