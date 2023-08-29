@@ -24,7 +24,8 @@ import {
   pythonCert,
   pmfCert,
   ztmCert,
-  seoCert
+  seoCert,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +42,15 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+const outerLinks = [
+  {
+    imageLink: "https://www.linkedin.com/in/azriel-pilcher-064a33228/"
+  },
+  {
+    imageLink: "https://github.com/Azrihell"
+  },
+]
 
 const services = [
   {
@@ -226,7 +236,7 @@ const projects = [
   {
     name: "Trip Guide",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder ",
     tags: [
       {
         name: "nextjs",
@@ -247,4 +257,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, certificates, testimonials, projects }
+export { services, technologies, certificates, testimonials, projects, outerLinks }

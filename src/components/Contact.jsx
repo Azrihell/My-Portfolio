@@ -5,6 +5,8 @@ import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
+import { github } from '../assets'
+import { linkedin } from '../assets'
 
 
 
@@ -107,6 +109,32 @@ const Contact = () => {
           <button type='submit' className='bg-tertiary py-3 px-8 hover:bg-secondary hover:text-primary outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
             {loading ? 'Sending...' : 'Send'}
           </button>
+
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open("https://github.com/Azrihell", "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='github profile'
+                className='w-full h-full object-contain'
+              />
+            </div>
+          </div>
+
+          <div className='absolute inset-x-14 top-0 flex justify-end m-3 card-img_hover'>
+            <div
+              onClick={() => window.open("https://www.linkedin.com/in/azriel-pilcher-064a33228/", "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={linkedin}
+                alt='linkedin profile'
+                className='w-full h-full object-contain'
+              />
+            </div>
+          </div>
 
         </form>
       </motion.div>
