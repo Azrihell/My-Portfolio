@@ -5,6 +5,7 @@ import caticon from "./caticon.png"
 import mobile from "./mobile.png"
 import web from "./web.png"
 import github from "./github.png"
+import liveicon from './liveicon.png'
 import menu from "./menu.svg"
 import close from "./close.svg"
 import wordpressCert from './wordpressCert.jpg'
@@ -62,5 +63,6 @@ export {
   wordpressCert,
   pythonCert,
   pmfCert,
-  ztmCert
+  ztmCert,
+  liveicon
 };

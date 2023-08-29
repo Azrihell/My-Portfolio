@@ -198,11 +198,12 @@ const projects = [
     ],
     image: openai,
     source_code_link: "https://github.com/Azrihell/AI-Image-Generator-Client",
+    live_view_link: ""
   },
   {
     name: "Quick, Design!",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple t-shirt designing web app, powered by AI. Enables users to bring their ideas to life, then download them for use!",
     tags: [
       {
         name: "react",
@@ -213,12 +214,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Ai",
+        name: "AI",
         color: "pink-text-gradient",
       },
     ],
     image: tshirt,
     source_code_link: "https://github.com/Azrihell/Ai-TShirt-App-Client",
+    live_view_link: "https://quickdesign.vercel.app"
   },
   {
     name: "Trip Guide",
@@ -240,6 +242,7 @@ const projects = [
     ],
     image: ztmCert,
     source_code_link: "https://github.com/",
+    live_view_link: ""
   },
 ];
 
