@@ -25,7 +25,7 @@ import {
   pmfCert,
   ztmCert,
   seoCert,
-  github
+  faceDetect
 } from "../assets";
 
 export const navLinks = [
@@ -226,16 +226,16 @@ const projects = [
     live_view_link: "https://quickdesign.vercel.app"
   },
   {
-    name: "Trip Guide",
+    name: "Face Detection App",
     description:
-      "placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder ",
+      "My first project! A super simple web app that uses a Clarifai API to detect faces in photos with a photo url users supply.",
     tags: [
       {
-        name: "nextjs",
+        name: "API",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
@@ -243,9 +243,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ztmCert,
-    source_code_link: "https://github.com/",
-    live_view_link: ""
+    image: faceDetect,
+    source_code_link: "https://github.com/Azrihell/FaceRecognition-Project/",
+    live_view_link: "https://face-recognition-app-one.vercel.app/"
   },
 ];
 

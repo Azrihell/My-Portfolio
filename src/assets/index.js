@@ -28,6 +28,7 @@ import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
 import threejs from "./tech/threejs.svg"
 import linkedin from './tech/linkedin.png'
+import faceDetect from './faceDetect.png'
 
 import ZTM from "./company/ZTM.png"
 
@@ -66,5 +67,6 @@ export {
   pmfCert,
   ztmCert,
   liveicon,
-  seoCert
+  seoCert,
+  faceDetect
 };
