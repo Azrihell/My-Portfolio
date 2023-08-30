@@ -195,7 +195,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
@@ -209,7 +209,7 @@ const projects = [
       "A simple t-shirt designing web app, powered by AI. Enables users to bring their ideas to life, then download them for use!",
     tags: [
       {
-        name: "react",
+        name: "AI",
         color: "blue-text-gradient",
       },
       {
@@ -217,7 +217,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "AI",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
@@ -235,7 +235,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Typescript",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
