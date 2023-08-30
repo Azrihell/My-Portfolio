@@ -60,6 +60,7 @@ const Contact = () => {
   }
 
   return (
+    
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div className='flex-[0.75] bg-black-100 p-8 rounded-2xl' variants={slideIn('left', 'tween', 0.2, 1)}>
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -110,7 +111,7 @@ const Contact = () => {
             {loading ? 'Sending...' : 'Send'}
           </button>
 
-          <div className='absolute inset-0 flex justify-end m-3'>
+          <div className='relative -right-3 -bottom-14 flex justify-end'>
             <div
               onClick={() => window.open("https://github.com/Azrihell", "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -123,7 +124,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className='absolute inset-x-14 top-0 flex justify-end m-3'>
+          <div className='relative bottom-4 right-10 flex justify-end'>
             <div
               onClick={() => window.open("https://www.linkedin.com/in/azriel-pilcher-064a33228/", "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -137,6 +138,7 @@ const Contact = () => {
           </div>
 
         </form>
+      
       </motion.div>
 
       <motion.div
