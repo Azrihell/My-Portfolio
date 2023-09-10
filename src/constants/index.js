@@ -22,10 +22,9 @@ import {
   threejs,
   wordpressCert,
   pythonCert,
-  pmfCert,
   ztmCert,
   seoCert,
-  faceDetect
+  sumz
 } from "../assets";
 
 export const navLinks = [
@@ -182,9 +181,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ai Image Generator",
+    name: "AI Image Generator",
     description:
-      "An ai image generator app, that allows users to use ai to bring their ideas to life, and share them with the community.",
+      "An image generator app, that allows users to use AI to bring their ideas to life, and share them with the community.",
     tags: [
       {
         name: "react",
@@ -226,25 +225,25 @@ const projects = [
     live_view_link: "https://quickdesign.vercel.app"
   },
   {
-    name: "Face Detection App",
+    name: "AI Article Summerizer",
     description:
-      "My first project! A super simple web app that uses a Clarifai API to detect faces in photos with a photo url users supply.",
+      "An open-source article summerizer that transforms lengthy articles into clear and concise summaries.",
     tags: [
       {
-        name: "API",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "typescript",
+        name: "API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "comingsoon",
         color: "pink-text-gradient",
       },
     ],
-    image: faceDetect,
-    source_code_link: "https://github.com/Azrihell/FaceRecognition-Project/",
+    image: sumz,
+    source_code_link: "https://github.com/Azrihell/ai_summerizer_app",
     live_view_link: "https://face-recognition-app-one.vercel.app/"
   },
 ];
