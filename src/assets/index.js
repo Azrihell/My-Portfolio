@@ -13,7 +13,7 @@ import pythonCert from './pythonCert.jpg'
 import pmfCert from './pmfCert.jpg'
 import ztmCert from './ztmCert.jpg'
 import seoCert from './seoCert.jpg'
-import sumz from './sumz.png'
+import PriceWise from './PriceWise.png'
 
 import css from "./tech/css.png"
 import wordpress from './tech/wordpress.png'
@@ -70,5 +70,5 @@ export {
   liveicon,
   seoCert,
   faceDetect,
-  sumz
+  PriceWise
 };

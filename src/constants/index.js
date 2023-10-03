@@ -24,7 +24,7 @@ import {
   pythonCert,
   ztmCert,
   seoCert,
-  sumz
+  PriceWise
 } from "../assets";
 
 export const navLinks = [
@@ -190,11 +190,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind css",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
     ],
@@ -225,16 +225,16 @@ const projects = [
     live_view_link: "https://quickdesign.vercel.app"
   },
   {
-    name: "AI Article Summerizer",
+    name: "PriceWise",
     description:
-      "An open-source article summerizer that transforms lengthy articles into clear and concise summaries.",
+      "An e-commerce price tracker that will alert the user when the item they want is lowest in cost.",
     tags: [
       {
-        name: "reactjs",
+        name: "NEXTjs",
         color: "blue-text-gradient",
       },
       {
-        name: "API",
+        name: "NodeMailer",
         color: "green-text-gradient",
       },
       {
@@ -242,9 +242,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: sumz,
-    source_code_link: "https://github.com/Azrihell/ai_summerizer_app",
-    live_view_link: "https://face-recognition-app-one.vercel.app/"
+    image: PriceWise,
+    source_code_link: "https://github.com/Azrihell/pricewise-CLIENT",
+    live_view_link: "https://github.com/Azrihell/pricewise-CLIENT"
   },
 ];
 
