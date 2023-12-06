@@ -19,12 +19,12 @@ import {
   linkedin,
   openai,
   tshirt,
-  threejs,
-  wordpressCert,
-  pythonCert,
+  nextjs,
   ztmCert,
   seoCert,
-  PriceWise
+  PriceWise,
+  agileCert,
+  nextjsCert
 } from "../assets";
 
 export const navLinks = [
@@ -100,8 +100,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
     name: "git",
@@ -127,20 +127,20 @@ const certificates = [
     image: ztmCert
   },
   {
-    title: "WordPress Essential Training",
+    title: "Agile Testing",
     company_name: "Linkedin Learning",
     icon: wordpress,
     iconBg: "#E6DEDD",
     date: "August 2023",
-    image: wordpressCert
+    image: agileCert
   },
   {
-    title: "Python Essential Learning",
+    title: "NextJS",
     company_name: "LinkedIn Learning",
     icon: python,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
-    image: pythonCert
+    image: nextjsCert
   },
   {
     title: "SEO Foundations",

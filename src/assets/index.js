@@ -8,12 +8,12 @@ import github from "./github.png"
 import liveicon from './liveicon.png'
 import menu from "./menu.svg"
 import close from "./close.svg"
-import wordpressCert from './wordpressCert.jpg'
-import pythonCert from './pythonCert.jpg'
 import pmfCert from './pmfCert.jpg'
 import ztmCert from './ztmCert.jpg'
 import seoCert from './seoCert.jpg'
 import PriceWise from './PriceWise.png'
+import agileCert from './agileCert.jpg'
+import nextjsCert from './nextjscert.jpg'
 
 import css from "./tech/css.png"
 import wordpress from './tech/wordpress.png'
@@ -27,9 +27,9 @@ import reactjs from "./tech/reactjs.png"
 import python from "./tech/python.png"
 import tailwind from "./tech/tailwind.png"
 import typescript from "./tech/typescript.png"
-import threejs from "./tech/threejs.svg"
 import linkedin from './tech/linkedin.png'
 import faceDetect from './faceDetect.png'
+import nextjs from './tech/nextjs.png'
 
 import ZTM from "./company/ZTM.png"
 
@@ -57,18 +57,18 @@ export {
   python,
   tailwind,
   typescript,
-  threejs,
   linkedin,
   ZTM,
   openai,
   tshirt,
   azLogo,
-  wordpressCert,
-  pythonCert,
+  agileCert,
+  nextjsCert,
   pmfCert,
   ztmCert,
   liveicon,
   seoCert,
   faceDetect,
-  PriceWise
+  PriceWise,
+  nextjs
 };
