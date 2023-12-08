@@ -13,7 +13,7 @@ import ztmCert from './ztmCert.jpg'
 import seoCert from './seoCert.jpg'
 import PriceWise from './PriceWise.png'
 import agileCert from './agileCert.jpg'
-import nextjsCert from './nextjscert.jpg'
+import nextjsCert from './nextjsCert.jpg'
 
 import css from "./tech/css.png"
 import wordpress from './tech/wordpress.png'
